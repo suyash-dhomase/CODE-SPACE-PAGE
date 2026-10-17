@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Nunito", sans-serif;
+	background-image: url(" mainBackground.jpg");
+}
+
+.nav {
+	background-color: rgba(0, 0, 0, 0.402);
+	backdrop-filter: blur(10px);
+	color: white;
+	height: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 4rem;
+}
+
+.nav-opt {
+	display: flex;
+}
+
+ul li {
+	margin-left: 20px;
+	list-style: none;
+}
+
+ul li a {
+	cursor: pointer;
+	text-decoration: none;
+	transition: 0.3s;
+	color: white;
+}
+
+ul li a:hover {
+	color: chartreuse;
+}
+
+.card {
+	color: white;
+	background-color:rgba(255, 255, 255, 0.187);
+    backdrop-filter: blur(7px);
+    border: 1px solid rgba(255, 255, 255, 0.109);
+	padding: 40px;
+	width: 700px;
+	border-radius: 10px;
+
+}
+
+.card-container {
+	min-height: 100vh;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.card h1 {
+	font-size: 40px;
+	padding: 20px;
+}
+
+.card p {
+	font: 18px;
+	line-height: 1.8rem;
+}
